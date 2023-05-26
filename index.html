@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://kit.fontawesome.com/05c398ac0b.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Assets/images/logo.png" alt="" srcset="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#Header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-sharp fa-solid fa-circle-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+                
+            </nav>
+            <div class="header-text">
+                <p class="header-in">Programmer</p>
+                <h1>Hi, I'm <span>Nazim Qureshi</span><br> from India</h1>
+            </div>
+
+        </div>
+        
+    </div>
+
+
+    <!-- --------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Assets\images\Me-1.jpg" alt="" srcset="" class="about-pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1><br>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod 
+                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                         quis nostrud exercitation ullamco laboris nisi ut
+                         aliquip ex ea commodo consequat.
+                         Duis aute irure dolor in reprehenderit in voluptate velit esse
+                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
+                           non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tabs " id="Skills">
+                        <ul>
+                            <li>
+                                <span>UI/UX</span><br>Web Interfaces
+                            </li>
+                            <li><span>Web Developement</span><br>Designing Web Apps</li>
+                            <li><span>Flutter Developement</span><br>Building Web/Android/iOS Apps</li>
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents " id="Experience">
+                        <ul>
+                            <li>
+                                <span>GirlsScript Social Summer of Code</span><br>Currently,working on the AI project
+                            </li>
+                            <li><span>Social Summer of Code</span><br>Worked on an Open source project,Dino a chrome extension
+                            which helps people suffering from dyslexia to surf over the internet without any difficulties.
+                            
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                    <div class="tab-contents " id="Education">
+                        <ul>
+                            <li>
+                                <span>Bachelor of technology in Computer Science Engineering</span><span class="timeline"> 2021 - 2025 </span><br>Kalinga Institute of Industrial Technology 
+                                <span class="timeline-2" style="color: rgb(209, 207, 207); ">8.50 CGPA</span>
+                            </li>
+                            <li>
+                                <span>12<sup>th </sup>  Standard</span><span class="timeline"> 2020 - 2021 </span><br>Sun Valley International School
+                                <span class="timeline-2" style="color: rgb(209, 207, 207);">92.40 %</span>
+                            </li>
+                            <li>
+                                <span>10<sup>th </sup>  Standard</span><span class="timeline"> 2019 - 2020 </span><br>Sun Valley International School
+                                <span class="timeline-2" style="color: rgb(209, 207, 207);">91.16 %</span>
+                            </li>
+                            
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+<!-- -------------------services----------------- -->
+
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+            <div class="service-1">
+                <i class="fa-solid fa-code fa-xl" style="color: #f53838;"></i>
+                <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur 
+                    vel beatae aperiam quod eos modi nisi deserunt optio. Asperiores 
+                    veniam laborum facilis 
+                    ipsam soluta consequatur ab tempora corporis repudiandae consectetur.</p>
+                <a href="#" class="learnmore">Learn more</a>
+                </div>
+            <div class="service-2">
+                <i class="fa-brands fa-uikit fa-xl" style="color: #e8463b;"></i>
+                <h2>UI/UX</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur 
+                    vel beatae aperiam quod eos modi nisi deserunt optio. Asperiores 
+                    veniam laborum facilis 
+                    ipsam soluta consequatur ab tempora corporis repudiandae consectetur.</p>
+                <a href="#" class="learnmore">Learn more</a>
+                </div>
+                <div class="service-3">
+                    <i class="fa-brands fa-app-store-ios fa-xl" style="color: #e9422f;"></i>
+                    <h2>Android Apps</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur 
+                        vel beatae aperiam quod eos modi nisi deserunt optio. Asperiores 
+                        veniam laborum facilis 
+                        ipsam soluta consequatur ab tempora corporis repudiandae consectetur.</p>
+                    <a href="#" class="learnmore">Learn more</a>
+                    </div>
+                
+                
+        </div>
+    </div>
+</div>
+
+<!-- ----------------------Portfolio--------------------------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-lists">
+            <div class="work">
+                <img src="/Assets/images/Project-1.png" alt="" class="work-1">
+                <div class="layer">
+                    <h3>Chrome extension</h3>
+                    <p>Dino is a Chrome extension designed to help people with dyslexia and color blindness navigate and interact with web pages more easily.</p>
+                    <a href="https://github.com/developer-diganta/Dino" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/Assets/images/Project-2.png" alt="" class="work-1">
+                <div class="layer">
+                    <h3>Instrument Play App</h3>
+                    <p>Instrument Application which has the drum kit instruments</p>
+                    <a href="https://github.com/officialarmannqureshi/Drum-Kit" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work work-3">
+                <img src="/Assets/images/Project-3.png" alt="" class="work-1 E-commerce">
+                <div class="layer">
+                    <h3>E-commerce website</h3>
+                    <p>E-commerce platform named as NGS MART,developed this application using the HTML,CSS Frameworks,Javascript and many more.</p>
+                    <a href="https://github.com/officialarmannqureshi/E-commerce" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!-- ----------------------------contact-------------------------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="subtitle">Contact me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>info.nazimqureshi@gmail.com</p>
+                <p><i class="fa-sharp fa-solid fa-phone"></i>Phone no: +91 7428606364</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    <a href=""><i class="fa-brands fa-discord"></i></a>
+                    <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-telegram"></i></a>
+                    
+                </div>
+                <a href="Assets/images/resume.pdf" download class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" id="submitform">
+                    <input type="text" name="Name" placeholder="Your name" required>
+                    <input type="email" name="Email" placeholder="Your e-mail id" required>
+                    <textarea name="Message"  rows="6" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn btn2 btn3" onclick="revert()">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copypright <i class="fa-regular fa-copyright"></i> Nazim Qureshi. Made with <i class="fa-sharp fa-solid fa-heart heart" style="color: #ff004f;"></i> </p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks=document.getElementsByClassName('tab-links');
+    var tabcontents=document.getElementsByClassName('tab-contents');
+    function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove('active-link');
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove('active-tabs');
+    }
+    event.currentTarget.classList.add('active-link');
+    document.getElementById(tabname).classList.add('active-tabs');
+    }   
+    
+</script>
+<script>
+    var sidemeu=document.getElementById('sidemenu');
+    function openmenu(){
+        sidemeu.style.right="0";
+
+    }
+    function closemenu(){
+        sidemeu.style.right="-200px";
+
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyNFs0xLY7LT5vGNW-16TEoe6WT1vzIukcji8HzGpG-Ga_OhQHJCAcJMmPmQLnWuf1L/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById('msg');
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => msg.innerHTML="Message sent successfully!",
+        setTimeout(function () {
+            msg.innerHTML=""
+        },7000),
+        form.reset()
+        )
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+
+</html>
